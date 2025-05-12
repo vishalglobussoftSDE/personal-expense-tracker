@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
 import { Input } from '../Input';
-import { Button } from '../Button/Index';
+import  Button  from '../Button/Index.jsx';
 import { toast } from 'react-toastify';
 import {
   createUserWithEmailAndPassword,
