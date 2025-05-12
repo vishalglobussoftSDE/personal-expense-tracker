@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css"
 import { Row, Card } from 'antd'
-import Button from '../Button'
+import Button from '../Button/Index'
 
 const Cards = ({showExpenseModal , showIncomeModal , income , expenses , currentBalance}) => {
     return (
