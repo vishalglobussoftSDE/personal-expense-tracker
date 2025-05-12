@@ -1,0 +1,36 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--theme);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; 
+}
+
+.navbar-heading {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.logo.link {
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0; 
+  padding: 0.3rem 0.5rem; 
+  box-sizing: border-box;
+  transition: opacity 0.3s ease;
+  white-space: nowrap; 
+}
+
+.logo.link:hover {
+  opacity: 0.8;
+}

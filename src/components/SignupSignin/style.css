@@ -1,0 +1,35 @@
+.signup-wrapper {
+    width: 70%;
+    max-width: 400px;
+    height: auto;
+    /* margin: 5px; */
+    box-shadow: var(--shadow);
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    border: 1px solid var(--black);
+    /* Added color to the border */
+    background-color: var(--white);
+    /* Added background color for consistency */
+}
+
+.title {
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    /* Added margin-bottom for spacing below the title */
+}
+
+.or {
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 1rem 0rem;
+    color: grey;
+}
+
+.already {
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 1rem 0rem;
+    color: grey;
+}

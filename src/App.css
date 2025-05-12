@@ -1,0 +1,16 @@
+.wrapper, .chats-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+}
+.chats-wrapper{
+  justify-content: space-between;
+  height: auto;
+  width: 90%;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+  margin: 2rem;
+}

@@ -1,0 +1,80 @@
+/* Main Wrapper */
+.main {
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+  }
+  
+  .main-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .input-flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Input styling */
+  input[type="text"],
+  input[type="search"] {
+    padding: 0.5rem 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    min-width: 220px;
+  }
+  
+  /* Buttons */
+  .btn {
+    padding: 8px 16px;
+    background-color: #efefef;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #dcdcdc;
+  }
+  
+  .btn-blue {
+    background-color: #1677ff;
+    color: white;
+  }
+  
+  .btn-blue:hover {
+    background-color: #155dd8;
+  }
+  
+  /* Radio group styling */
+  .input-radio .ant-radio-button-wrapper {
+    padding: 0 1rem;
+    height: 36px;
+    line-height: 34px;
+    font-size: 14px;
+  }
+  
+  /* Table tweaks */
+  .ant-table-thead > tr > th {
+    background-color: #f0f2f5 !important;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .ant-table-tbody > tr:hover > td {
+    background-color: #fafafa !important;
+    transition: background-color 0.3s ease;
+  }
+  
